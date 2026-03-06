@@ -6,7 +6,7 @@ labels: ""
 assignees: ""
 ---
 
-![Image](https://github.com/user-attachments/assets/c4a9f3ea-fb57-4f2a-a137-f576aebb335c)
+<img src="https://orbesoft.com.br/logo.svg" alt="Descrição" width="86" height="24" />
 
 ## 📝 Descrição
 

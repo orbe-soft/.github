@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/c4a9f3ea-fb57-4f2a-a137-f576aebb335c)
+<img src="https://orbesoft.com.br/logo.svg" alt="Descrição" width="86" height="24" />
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> • 
@@ -15,21 +15,26 @@ Esta documentação explora os templates de issues disponíveis e oferece um con
 Esta seção apresenta os diferentes templates de issues que suportaremos no board. Cada tipo de template é adaptado a um fluxo de trabalho específico.
 
 ### 📋 1. Task
+
 O template de **task** é destinado a demandas de desenvolvimento e novas funcionalidades. Ele oferece campos claros para descrever o escopo da tarefa, requisitos funcionais e critérios de aceitação, garantindo que o time tenha tudo o que precisa para estimar, implementar e validar a entrega com eficiência.
 
 ```markdown
-![Image](https://github.com/user-attachments/assets/c4a9f3ea-fb57-4f2a-a137-f576aebb335c)
+<img src="https://orbesoft.com.br/logo.svg" alt="Descrição" width="86" height="24" />
 
 ## 📝 Descrição
+
 <!-- Descreva claramente o que precisa ser feito ou qual é o problema/sugestão. -->
 
 ## 🎯 Requisitos
+
 <!-- Liste os requisitos específicos desta solicitação (funcionalidades, restrições, regras de negócio). -->
 
 ## ✅ Critérios de Aceitação
+
 <!-- Defina como saberemos se a solicitação foi corretamente implementada (testes, comportamento esperado, etc.). -->
 
 ## 🔗 Referências
+
 <!-- Adicione links, documentos, ou prints que possam ajudar a entender o contexto. -->
 ```
 
@@ -37,25 +42,33 @@ O template de **task** é destinado a demandas de desenvolvimento e novas funcio
 Esta seção reune blocos de Markdown que podem ser copiados e colados em suas issues para padronizar a formatação, acelerar a criação e garantir consistência.
 
 ### 🔠 1. Títulos
+
 Use títulos para estruturar suas issues em seções hierarquizadas, facilitando a leitura e o entendimento.
+
 ```markdown
 # Título H1
+
 ## Título H2
+
 ### Título H3
 ```
 
 ### 📑 2. Listas
+
 Liste itens de forma ordenada ou não ordenada para descrever etapas, requisitos ou agrupamentos.
+
 ```markdown
 1. First item
 2. Second item
 3. Third item
 ```
+
 ```markdown
 - First item
 - Second item
 - Third item
 ```
+
 ```markdown
 - [x] Write the press release
 - [ ] Update the website
@@ -63,11 +76,13 @@ Liste itens de forma ordenada ou não ordenada para descrever etapas, requisitos
 ```
 
 ### 📏 3. Tabela
+
 Apresente informações tabulares de forma clara, comparando campos, tipos e descrições.
+
 ```markdown
-| Coluna A   | Coluna B   |
-|------------|------------|
-| Dado 1     | Dado 2     |
+| Coluna A | Coluna B |
+| -------- | -------- |
+| Dado 1   | Dado 2   |
 ```
 
 <h2 id="boas-praticas">Boas práticas</h2>

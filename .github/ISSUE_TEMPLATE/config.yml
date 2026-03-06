@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Docs 📘
-    url: https://github.com/orbe-soft/orbe-root/blob/main/docs/issue-template-docs.md
+    url: https://github.com/orbe-soft/.github/blob/main/docs/issue-template-docs.md
     about: See the documentation to understand how to use each template.
