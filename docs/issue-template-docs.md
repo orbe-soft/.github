@@ -3,6 +3,9 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> • 
  <a href="#tipos-de-template">Tipos de template</a> • 
+ <a href="#task">Task</a> • 
+ <a href="#macro">Macro</a> • 
+ <a href="#module">Module</a> • 
  <a href="#componentes">Componentes</a> • 
  <a href="#boas-praticas">Boas práticas</a> • 
  <a href="#referencias">Referências</a>
@@ -14,7 +17,7 @@ Esta documentação explora os templates de issues disponíveis e oferece um con
 <h2 id="tipos-de-template">🔖 Tipos de template</h2>
 Esta seção apresenta os diferentes templates de issues que suportaremos no board. Cada tipo de template é adaptado a um fluxo de trabalho específico.
 
-### 📋 1. Task
+<h3 id="task">📋 1. Task</h3>
 
 O template de **task** é destinado a demandas de desenvolvimento e novas funcionalidades. Ele oferece campos claros para descrever o escopo da tarefa, requisitos funcionais e critérios de aceitação, garantindo que o time tenha tudo o que precisa para estimar, implementar e validar a entrega com eficiência.
 
@@ -36,6 +39,54 @@ O template de **task** é destinado a demandas de desenvolvimento e novas funcio
 ## 🔗 Referências
 
 <!-- Adicione links, documentos, ou prints que possam ajudar a entender o contexto. -->
+```
+
+<h3 id="macro">🗂️ 2. Macro</h3>
+
+O template de **macro** é destinado à visão geral de um projeto. Agrupa modules e centraliza documentação, design e contexto macro. Fica na coluna `macros` do board.
+
+```markdown
+<img src="https://orbesoft.com.br/logo.svg" alt="Descrição" width="86" height="24" />
+
+## 📝 Descrição
+
+<!-- Visão geral do projeto: contexto, público-alvo e escopo. -->
+
+## 📂 Docs
+
+<!-- Links do Drive com documentação do projeto (briefing, requisitos, envs, credenciais, etc.). -->
+
+## 🎨 Figma
+
+<!-- Link do Figma do projeto. -->
+
+## 🔗 Referências
+
+<!-- Materiais complementares que não estão no Drive nem no Figma (issues relacionadas, APIs, threads, inspirações). -->
+```
+
+<h3 id="module">🧩 3. Module</h3>
+
+O template de **module** é destinado a uma área específica dentro de uma macro. Descreve escopo, docs e design do módulo. Entra em `backlog` e é vinculada à macro pai via Parent issue.
+
+```markdown
+<img src="https://orbesoft.com.br/logo.svg" alt="Descrição" width="86" height="24" />
+
+## 📝 Descrição
+
+<!-- Escopo específico deste módulo dentro do projeto. -->
+
+## 📂 Docs
+
+<!-- Links do Drive com documentação deste módulo (specs, envs, credenciais, etc.). -->
+
+## 🎨 Figma
+
+<!-- Link do Figma deste módulo. -->
+
+## 🔗 Referências
+
+<!-- Materiais complementares que não estão no Drive nem no Figma (issues relacionadas, APIs, threads, inspirações). -->
 ```
 
 <h2 id="componentes">🧩 Componentes</h2>
